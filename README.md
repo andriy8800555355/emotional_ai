@@ -96,4 +96,4 @@ visualizer.plot_emotion_timeline()
 
 ## Ліцензія
 
-MIT
+Для цього коду використовується ліцезнія MIT.

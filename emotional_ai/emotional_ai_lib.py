@@ -119,8 +119,8 @@ class EmotionalBot:
             if self.on_emotion_change_callback:
                 self.on_emotion_change_callback(self.emotions)
 
-            return f"Настрій оновлено: {emotion} = {value:.2f}"
-        return "Помилка: невідома емоція."
+            return f"Mood updated: {emotion} = {value:.2f}"
+        return "Error: unknown emotion."
 
     def get_mood(self):
         return max(self.emotions, key=self.emotions.get)

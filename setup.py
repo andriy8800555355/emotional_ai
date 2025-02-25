@@ -4,7 +4,7 @@ setup(
     name="emotional_ai",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["matplotlib", "openai", "anthropic"],
     author="Roflboy2009",
     author_email="Andriy4521@ukr.net",
     description="Бібліотека емоційного ШІ",
